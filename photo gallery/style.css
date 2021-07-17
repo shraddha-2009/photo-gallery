@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    background-color: #000000;
+}
+
+h1{
+    color:floralwhite;
+    text-align: center;
+}
+
+#photo_gallery {
+    color: #ffffff;
+    width: 90%;
+    text-align: center;
+}
+
+#menu {
+    width: 20px;
+    height: 14px;
+}
+
+label {
+    width: 1500px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#main {
+    width: 60%;
+    height: 500px;
+}/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+
+
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 100px;
+  background: #000000;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+#xx{
+    width: 50%;
+}
